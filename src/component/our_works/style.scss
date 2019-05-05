@@ -1,0 +1,187 @@
+#our_works{
+  overflow: visible;
+  padding-bottom: 130px;
+  background-color: #F4F4F4;
+  .container{
+    padding: 0 70px;
+    &:before{
+      content: "oh what";
+      text-transform: uppercase;
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      -o-transform: rotate(-90deg);
+      transform: rotate(-90deg);
+      position: absolute;
+      left: -120px;
+      font-size: 84px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      opacity: 0.2;
+      top: -28px;
+    }
+    &:after{
+      content: "охват";
+      text-transform: uppercase;
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      -o-transform: rotate(-90deg);
+      transform: rotate(-90deg);
+      position: absolute;
+      left: 25px;
+      font-size: 84px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      opacity: 0.2;
+      top: 32px;
+      z-index: 3;
+    }
+  }
+
+  h2{
+    font-weight: 900;
+    font-size:45px;
+    margin-top: 0;
+    padding-top: 30px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+.works{
+  display: flex;
+  position: relative;
+  z-index: 9;
+  justify-content: space-between;
+}
+.item_works{
+  width: 210px;
+  background-color: grey;
+  height: 210px;
+  box-shadow: -23.618px 27.17px 120px 0px rgba(9, 9, 9, 0.07);
+}
+.works_button{
+  display: flex;
+  justify-content: flex-end;
+  button{
+    width: 210px;
+    height: 40px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    background-color: #E1E1E1;
+  }
+}
+
+
+@media(min-width: 320px) and (max-width: 479px){
+  #our_works {
+    padding-bottom: 40px;
+    .container{
+      padding: 20px;
+      &::before{
+        content: ""
+      }
+      &::after{
+        content: '';
+      }
+    }
+
+    h2{
+      font-size: 38px;
+      margin-bottom: 30px;
+    }
+  }
+  .works{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .item_works{
+    margin: 10px;
+  }
+  .works_button {
+    justify-content: center;
+  }
+}
+@media(min-width: 480px) and (max-width: 1023px){
+  #our_works {
+    padding-bottom: 40px;
+    .container{
+      padding: 20px;
+      &::before{
+        content: ""
+      }
+      &::after{
+        content: '';
+      }
+    }
+
+    h2{
+      font-size: 38px;
+      margin-bottom: 30px;
+    }
+  }
+  .works{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .item_works{
+    margin: 10px;
+  }
+  .works_button {
+    justify-content: center;
+  }
+}
+@media(min-width: 1024px) and (max-width: 1279px) {
+  .item_works {
+    width: 150px;
+    height: 150px;
+  }
+  #our_works .container {
+    padding: 0 30px;
+  }
+  .works_button button{
+    width: 150px;
+    font-size: 10px;
+  }
+  #our_works .container::before{
+    left: -160px;
+  }
+  #our_works .container::after{
+    left: -20px;
+  }
+}
+@media (min-width: 1920px) {
+  .item_works{
+    width: 300px;
+    height: 300px;
+  }
+  #our_works .container::before {
+    content: "oh what";
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -338px;
+    font-size: 167px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    opacity: 0.2;
+    top: -70px;
+  }
+  #our_works .container::after {
+    content: "охват";
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -65px;
+    font-size: 167px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    opacity: 0.2;
+    top: 61px;
+    z-index: 3;
+  }
+}

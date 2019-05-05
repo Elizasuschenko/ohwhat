@@ -1,0 +1,260 @@
+#get{
+  height: 100vh;
+  background-color: #F4F4F4;
+  .container{
+    height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-bottom: 8%;
+  }
+  .container:before{
+    content: "Oh what";
+    text-transform: uppercase;
+    position: absolute;
+    left: -142px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    top: 2%;
+    opacity: 0.2;
+    font-size: 150px;
+  }
+  .container:after{
+    content: "охват";
+    text-transform: uppercase;
+    position: absolute;
+    left: -142px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    top: 23%;
+    opacity: 0.2;
+    z-index: 8;
+    font-size: 150px;
+  }
+  #feedback{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;}
+}
+.get-image{
+  width: 440px;
+  position: relative;
+  height: 290px;
+  z-index: 9;
+  background-image: url(./img/cup_1280.svg);
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  margin-left: 80px;
+}
+.get-text{
+  width: 570px;
+  h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+  }
+  div{
+    display: inline-block;
+    width: 275px;
+    vertical-align: top;
+  }
+  span{
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    position: relative;
+    font-size: 17px;
+  }
+  span:before{
+    position: absolute;
+    content: "";
+    background-color: #7A7A7A;
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    top: 7px;
+    left: 0;
+  }
+}
+
+@media(min-width: 320px) and (max-width: 767px){
+  #get{
+    h2{
+      text-align: center;
+    }
+    height: auto;
+    .container{
+      padding-bottom: 30px;
+      padding-top: 30px;
+      flex-wrap: wrap;
+      flex-flow: column-reverse;
+    }
+    #feedback{
+      top: 0;
+      button{
+        margin-right: 10px;
+      }
+    }
+  }
+  .get-image {
+
+    width: 100%;
+    position: relative;
+    height: 280px;
+    z-index: 9;
+    background-image: url(/static/media/cup_1280.b7ffe774.svg);
+    background-size: 500px 100%;
+    margin-left: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+  .get-text{
+    width: 100%;
+    .get_text_left{
+      width: 100%;
+    }
+    .get_text_right{
+      width: 100%;
+    }
+  }
+  #get .container::before{
+    content: "";
+  }
+  #get .container::after{
+    content: "";
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1023px) {
+  #get .container::before {
+    content: "Oh what";
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    top: 2%;
+    opacity: 0.2;
+    font-size: 70px;
+    width: 47%;
+    line-height: 57px;
+  }
+  #get .container::after {
+    content: "охват";
+    text-transform: uppercase;
+    position: absolute;
+    left: auto;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    top: 89%;
+    opacity: 0.2;
+    z-index: 8;
+    font-size: 89px;
+    right: 0;
+  }
+  #get{
+    padding-bottom: 60px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  #get .container::before {
+
+    font-size: 60px;
+    left: -100px;
+
+  }
+  #get .container::after {
+    font-size: 60px;
+    left: -100px;
+    top: 12%;
+  }
+
+  #get{
+    .container > span{
+      top: 222px;
+    }
+  }
+}
+@media(min-width: 768px) and (max-width: 1023px){
+  #get{
+    h2{
+      text-align: center;
+    }
+    height: auto;
+    .container{
+      padding-bottom: 30px;
+      padding-top: 30px;
+      flex-wrap: wrap;
+      flex-flow: column-reverse;
+      align-items: center;
+    }
+    #feedback{
+      top: 0;
+      button{
+        margin-right: 10px;
+      }
+    }
+  }
+  .get-text{
+    width: 500px;
+  }
+  .get-text div{
+    width: 249px;
+  }
+  .get-image {
+
+    position: relative;
+    height: 280px;
+    z-index: 9;
+    background-image: url(/static/media/cup_1280.b7ffe774.svg);
+    background-size: 500px 100%;
+    margin-left: 0;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+}
+@media(min-width: 1024px) and (max-width: 1279px) {
+  #get{
+    height: 500px;
+  }
+  .get-image{
+    margin-left: 40px;
+    width: 400px;
+    margin-right: 20px;
+    height: 254px;
+  }
+  .get-text{
+    width: 550px;
+    div{
+      width: 49%;
+    }
+  }
+}
+@media(min-width: 1920px) {
+  .get-image {
+    width: 670px;
+    height: 430px;
+  }
+  .get-text {
+    width: 870px;
+    margin-bottom: 65px;
+    span{
+      font-size: 22px;
+    }
+    h2{
+      font-size: 48px;
+    }
+  }
+  .get-text div {
+    width: 45%;
+  }
+
+}

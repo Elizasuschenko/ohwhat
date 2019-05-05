@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 6;
+}
+section .container>span{
+    z-index: 4;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -97%;
+    z-index: 999;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    text-align: center;
+    width: 541px;
+    height: 15px;
+    font-size: 12px;
+}
+button{
+    cursor: pointer;
+}
+#feedback{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#feedback button{
+    height: 30px;
+    border: none;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
+#feedback button span{
+    width: 25px;
+    height: 1px;
+    background-color: black;
+    display: block;
+    margin-left: 20px;
+}
+#feedback button span:before{
+    content: '';
+    display: block;
+    width: 25px;
+    height: 1px;
+    background-color: black;
+    -webkit-transform: translateY(-6px);
+    -moz-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    -o-transform: translateY(-6px);
+    transform: translateY(-6px);
+}
+#feedback button span:after{
+    content: '';
+    display: block;
+    width: 25px;
+    height: 1px;
+    background-color: black;
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+    transform: translateY(5px);
+}
+@media(min-width: 320px) and (max-width: 479px){
+    .container{
+        width: 100%;
+        height: auto;
+        padding: 0 20px;
+    }
+    section{
+        overflow: hidden;
+    }
+    section .container > span {
+        top: 303px;
+        left: calc(20px - 100%);
+        margin: 0 auto;
+        width: 541px;
+        height: 20px;
+        font-size: 10px;
+        line-height: 20px;
+
+    }
+}
+@media(min-width: 480px) and (max-width: 767px){
+    .container{
+        width: 100%;
+        height: auto;
+        padding: 0 40px;
+    }
+    section{
+        overflow: hidden;
+    }
+    section .container > span {
+        top: 303px;
+        left: calc(40px - 100%);
+        margin: 0 auto;
+        width: 541px;
+        height: 40px;
+        font-size: 10px;
+        line-height: 40px;
+
+    }
+}
+@media(min-width: 768px) and (max-width: 1023px){
+    .container{
+        width: 750px;
+        height: auto;
+        padding: 0 30px;
+    }
+    section{
+        overflow: hidden;
+    }
+    section .container > span {
+        top: 303px;
+        left: calc(30px - 100%);
+        margin: 0 auto;
+        width: 541px;
+        height: 30px;
+        font-size: 12px;
+        line-height: 30px;
+
+    }
+}
+@media(min-width: 1024px) and (max-width: 1279px){
+    .container{
+        width: 1024px;
+        height: auto;
+        padding: 0 30px;
+    }
+    section{
+        overflow: hidden;
+    }
+    section .container > span {
+        top: 303px;
+        left: calc(30px - 100%);
+        margin: 0 auto;
+        width: 541px;
+        height: 30px;
+        font-size: 12px;
+        line-height: 30px;
+
+    }
+}
+@media (min-width: 1920px) {
+    .container{
+        width: 1920px;
+    }
+    section .container > span{
+        font-size: 16px;
+    }
+    #feedback button{
+        font-size: 16px;
+    }
+}

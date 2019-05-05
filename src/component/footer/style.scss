@@ -1,0 +1,165 @@
+*{
+  box-sizing: border-box;
+}
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+i {
+  font-family: fontawesome !important;
+  color: white;
+  font-size: 25px !important;
+}
+footer{
+  .container{
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    &:before{
+      content: "oh what";
+      text-transform: uppercase;
+      opacity: 0.05;
+      right: 0;
+      top: -49px;
+      font-size: 84px;
+      position: absolute;
+      font-weight: 700;
+      font-family: 'Montserrat', sans-serif;
+    }
+    &:after{
+      font-weight: 700;
+      font-family: 'Montserrat', sans-serif;
+      content: "охват";
+      text-transform: uppercase;
+      opacity: 0.05;
+      line-height: 62px;
+      left: 160px;
+      bottom:0;
+      font-size: 84px;
+      position: absolute;
+    }
+  }
+  font-family: 'Montserrat', sans-serif;
+  height: 500px;
+  color: white;
+  background-image: linear-gradient(#1B1B1B 9%,#1A1A1A 10%, #1A1A1A 18%,#191919 19%, #191919 27%,#181818 28%, #181818 36%, #171717 37%, #171717 45%,#161616 46%, #161616 54%,#151515 55%, #151515 63%,#141414 64%, #141414 72%,#131313 73%, #131313 81%, #121212 82%, #121212 90%, #111111 91%, #111111 100%);
+  h2{
+    font-weight: 700;
+    font-size: 42px;
+    margin: 0 0 15px 0;
+  }
+  h3{
+    font-size: 18px;
+    margin: 0 0 30px 0;
+  }
+  button{
+    width: 240px;
+    height: 40px;
+    text-transform: uppercase;
+    background-color: #E1E1E1;
+    border: none;
+    margin-bottom: 30px;
+  }
+  .socia{
+    display: flex;
+    justify-content: center;
+    a{
+      margin: 0 10px;
+    }
+  }
+}
+
+
+@media(min-width: 320px) and (max-width: 479px){
+  footer{
+    padding: 30px 0;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    .container{
+      overflow: visible;
+      &::before{
+        content: "";
+      }
+      &::after {
+        bottom: -28px;
+        font-size: 47px;
+        line-height: 35px;
+
+      }
+    }
+    h2{
+      font-size: 32px;
+    }
+  }
+}
+@media(min-width: 480px) and (max-width: 767px){
+  footer{
+    padding: 30px 0;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    .container{
+      overflow: visible;
+      &::before{
+        content: "";
+      }
+      &::after {
+        bottom: -28px;
+        font-size: 47px;
+        line-height: 35px;
+
+      }
+    }
+    h2{
+      font-size: 32px;
+    }
+  }
+}
+@media (min-width: 1920px) {
+  footer{
+    h2{
+      font-size: 58px;
+    }
+    h3{
+      font-size: 27px;
+    }
+    button{
+      width: 280px;
+      height: 55px;
+      font-size: 16px;
+    }
+    i{
+      font-size: 36px!important;
+    }
+  }
+  footer{
+    overflow: hidden;
+  }
+  footer .container::before {
+    content: "oh what";
+    text-transform: uppercase;
+    opacity: 0.05;
+    right: -284px;
+    top: -84px;
+    font-size: 167px;
+    position: absolute;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+  }
+  footer .container::after {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    content: "охват";
+    text-transform: uppercase;
+    opacity: 0.05;
+    line-height: 126px;
+    left: 0px;
+    bottom: -1px;
+    font-size: 167px;
+    position: absolute;
+  }
+  footer .container{
+    overflow: visible;
+  }
+}
