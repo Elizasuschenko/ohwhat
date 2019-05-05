@@ -18,7 +18,7 @@ class AboutUs extends React.Component{
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d</p>
                         </div>
                         <div className="about_us_content_video">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ffiJNSy8CBA" showinfo="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="video" width="100%" height="100%" src="https://www.youtube.com/embed/ffiJNSy8CBA" showinfo="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>

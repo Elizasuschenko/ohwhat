@@ -8,11 +8,11 @@ class OurWorks extends React.Component{
                 <div className="container">
                     <h2>Наши работы</h2>
                     <div className="works">
-                        <div className="item_works"><img src="" /></div>
-                        <div className="item_works"><img src="" /></div>
-                        <div className="item_works"><img src="" /></div>
-                        <div className="item_works"><img src="" /></div>
-                        <div className="item_works"><img src="" /></div>
+                        <div className="item_works"><img alt="img" src="google.com" /></div>
+                        <div className="item_works"><img alt="img" src="google.com" /></div>
+                        <div className="item_works"><img alt="img" src="google.com" /></div>
+                        <div className="item_works"><img alt="img" src="google.com" /></div>
+                        <div className="item_works"><img alt="img" src="google.com" /></div>
                     </div>
                     <div className="works_button">
                         <button>Посмотреть больше</button>

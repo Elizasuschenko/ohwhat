@@ -10,14 +10,14 @@ class Footer extends React.Component{
             <h3>оставив заявку на звонок прямо сейчас</h3>
             <button>Оставить заявку на звонок</button>
             <div className="socia">
-            <a href="">
+            <a href="google.com">
             <i className="fa fa-instagram" aria-hidden="true"></i>
 
             </a>
-            <a href="">
+            <a href="google.com">
                 <i className="fa fa-envelope-o"></i>
             </a>
-            <a href="">
+            <a href="google.com">
             <i className="fa fa-mobile-phone"></i>
             </a>
             </div>
