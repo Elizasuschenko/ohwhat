@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb87463a-d446-4d7b-8d31-997d78035f33" name="Default" comment="" />
+    <list default="true" id="cb87463a-d446-4d7b-8d31-997d78035f33" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.eb4fad147ebe24021b9245d874adebc3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.73ac0fbd.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.73ac0fbd.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.d6a534e5.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.d6a534e5.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.1eebdf3a.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.1eebdf3a.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime~main.2a2c72f8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime~main.2a2c72f8.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/cup_1280.b7ffe774.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/main_1920.32b13a46.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/process/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/process/style.scss" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -23,14 +39,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="service-worker.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build/service-worker.js">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/component/services/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-495" />
+            <state relative-caret-position="-774" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/component/process/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="102" column="13" lean-forward="true" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+            </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>xlink:href</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,6 +69,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/component/first_block/img/main_1920.svg" />
+        <option value="$PROJECT_DIR$/src/component/process/style.scss" />
       </list>
     </option>
   </component>
@@ -102,6 +134,28 @@
               <item name="component" type="462c0819:PsiDirectoryNode" />
               <item name="first_block" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ohwhat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ohwhat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="first_block" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ohwhat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ohwhat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="process" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ohwhat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ohwhat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -157,17 +211,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557061828635</updated>
-      <workItem from="1557061832138" duration="2796000" />
+      <workItem from="1557061832138" duration="3902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2796000" />
+    <option name="totallyTimeSpent" value="3902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987715" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987715" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50074404" side_tool="true" weight="0.32838285" />
@@ -175,7 +229,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
       <window_info id="npm" sideWeight="0.5012285" side_tool="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49925596" visible="true" weight="0.32838285" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49925596" visible="true" weight="0.32838285" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -194,13 +248,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -211,6 +258,28 @@
     <entry file="file://$PROJECT_DIR$/build/service-worker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-495" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/services/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-774" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/first_block/img/main_1920.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/process/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="102" column="13" lean-forward="true" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+        </state>
       </provider>
     </entry>
   </component>
