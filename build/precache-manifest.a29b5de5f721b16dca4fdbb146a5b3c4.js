@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "836e38ce09d2e6e4ad393a9b55b88d13",
+    "revision": "ffc2ec7fd83b6fe6dfa433adf329b14d",
     "url": "/ohwhat/build/index.html"
   },
   {
-    "revision": "b4a8f9822e72b727435b",
-    "url": "/ohwhat/build/static/css/main.57bbc52a.chunk.css"
+    "revision": "d7166e7928ea2bc55546",
+    "url": "/ohwhat/build/static/css/main.105eb531.chunk.css"
   },
   {
     "revision": "9eee67cf782a38d35aeb",
     "url": "/ohwhat/build/static/js/2.d6a534e5.chunk.js"
   },
   {
-    "revision": "b4a8f9822e72b727435b",
+    "revision": "d7166e7928ea2bc55546",
     "url": "/ohwhat/build/static/js/main.1eebdf3a.chunk.js"
   },
   {
