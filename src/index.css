@@ -87,19 +87,19 @@ button{
     .container{
         width: 100%;
         height: auto;
-        padding: 0 20px;
+        padding: 0 30px;
     }
     section{
         overflow: hidden;
     }
     section .container > span {
         top: 303px;
-        left: calc(20px - 100%);
+        left: calc(30px - 100%);
         margin: 0 auto;
         width: 541px;
-        height: 20px;
-        font-size: 10px;
-        line-height: 20px;
+        height: 30px;
+        font-size: 11px;
+        line-height: 30px;
 
     }
 }
@@ -165,12 +165,13 @@ button{
 }
 @media (min-width: 1920px) {
     .container{
-        width: 1920px;
+        width: 1890px;
     }
     section .container > span{
         font-size: 16px;
     }
     #feedback button{
         font-size: 16px;
+        margin-right: 45px;
     }
 }

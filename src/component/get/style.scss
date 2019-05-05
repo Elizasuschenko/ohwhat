@@ -89,7 +89,7 @@
     }
     height: auto;
     .container{
-      padding-bottom: 30px;
+      padding-bottom: 60px;
       padding-top: 30px;
       flex-wrap: wrap;
       flex-flow: column-reverse;
@@ -115,7 +115,7 @@
 
   }
   .get-text{
-    width: 100%;
+    width: 97%;
     .get_text_left{
       width: 100%;
     }
@@ -123,11 +123,30 @@
       width: 100%;
     }
   }
-  #get .container::before{
-    content: "";
+  #get .container::before {
+    content: "Oh what";
+    text-transform: uppercase;
+    position: absolute;
+    left: 10px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    top: 0%;
+    opacity: 0.2;
+    font-size: 61px;
+    line-height: 65px;
+    width: 150px;
   }
-  #get .container::after{
-    content: "";
+  #get .container::after {
+    content: "охват";
+    text-transform: uppercase;
+    position: absolute;
+    left: 27%;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    top: 89%;
+    opacity: 0.2;
+    z-index: 8;
+    font-size: 70px;
   }
 }
 
