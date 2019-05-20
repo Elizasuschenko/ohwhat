@@ -37,7 +37,7 @@ class Footer extends React.Component {
             <footer>
                 <div className="footer_container container">
                     <h2 className="main_title_footer">{this.props.content.title}</h2>
-                    <button className="footer_button">{this.props.content.button}</button>
+                    <button className="footer_button" onClick={this.call}>{this.props.content.button}</button>
                     <div className="social">
                         {this.socialBlock()}
                     </div>

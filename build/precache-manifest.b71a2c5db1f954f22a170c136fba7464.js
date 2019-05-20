@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a8c79b61fa30003a780a495f22f4c43",
+    "revision": "dfdb5eb18330fe5644ea0fa2b7105db2",
     "url": "/ohwhat/build/index.html"
   },
   {
-    "revision": "7bb4392d2650bf8e7e51",
+    "revision": "92fe1e2ff4a8dc9196e7",
     "url": "/ohwhat/build/static/css/main.8373cb71.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ohwhat/build/static/js/2.827c098e.chunk.js"
   },
   {
-    "revision": "7bb4392d2650bf8e7e51",
-    "url": "/ohwhat/build/static/js/main.daaf5efb.chunk.js"
+    "revision": "92fe1e2ff4a8dc9196e7",
+    "url": "/ohwhat/build/static/js/main.8da030d6.chunk.js"
   },
   {
     "revision": "5e7e1f4eedc2eba0f22e",
