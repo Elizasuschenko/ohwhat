@@ -4,7 +4,19 @@ import './style.scss'
 class Footer extends React.Component {
     constructor(props){
         super(props)
-        this.socialBlock = this.socialBlock.bind(this)
+        this.socialBlock = this.socialBlock.bind(this);
+        this.call = this.call.bind(this);
+        this.showDarkLine = this.showDarkLine.bind(this)
+    }
+
+    showDarkLine(){
+        let dark = document.querySelector('.windows');
+        dark.classList.add('showDark')
+    }
+    call() {
+        let call = document.querySelector('.call_block');
+        call.style.display="block";
+        this.showDarkLine()
     }
     socialBlock(index){
         const items = this.props.content.social;
