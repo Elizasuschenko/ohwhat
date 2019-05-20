@@ -5,22 +5,22 @@ import Feedback from "../feedback";
 class Process extends React.Component{
     render(){
         return(
-            <section id="process">
-                <div className="container">
+            <section className="process_block" id="process">
+                <div className="process_container container">
             <Feedback />
-            <span>СТРАТЕГИЯ ОХВАТ РЕЗУЛЬТАТ ВОВЛЕЧЕНИЕ КОММУНИКАЦИЯ</span>
+            <span>{this.props.content.line}</span>
                     <div className="process_content">
                         <div className="process_content_left">
                             <div className="process_content_left_item left">
-                                <h3>01.</h3>
-                                <p>Мы создаём <br />позиционирование<br /> вашего бренда и<br /> <span>стратегию продвижения <br />в социальных сетях.</span></p>
+                                <h3 className="process_content_left_item_title">{this.props.content.left.one.number}</h3>
+                                <p className="process_content_left_item_text">{this.props.content.left.one.content.text}<span className="process_content_left_item_text_bold">{this.props.content.left.one.content.boldText}</span></p>
                             </div>
                             <div className="process_content_left_item right">
-                                <h3>02.</h3>
-                                <p>Ваши страницы <br />станут площадкой<br /> для близкой и<br /> <span>эффективной коммуникации <br />с клиентами. </span></p>
+                                <h3 className="process_content_left_item_title">{this.props.content.left.two.number}</h3>
+                                <p className="process_content_left_item_text">{this.props.content.left.two.content.text} <span className="process_content_left_item_text_bold">{this.props.content.left.two.content.boldText} </span></p>
                             </div>
                         </div>
-                        <div className="process_content_right">Мы сделаем так,<br /> чтобы вашим <br /> брендом<br /> восхищались.</div>
+                        <div className="process_content_right">{this.props.content.right.text}</div>
                     </div>
                 </div>
             </section>

@@ -11,6 +11,9 @@ body{
     position: relative;
     z-index: 6;
 }
+section{
+    min-height: 600px;
+}
 section .container>span{
     z-index: 4;
     font-family: 'Montserrat', sans-serif;
@@ -35,13 +38,14 @@ section .container>span{
 button{
     cursor: pointer;
 }
-#feedback{
+.feedback{
     height: 50px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding-right: 53px;
 }
-#feedback button{
+.feedback_button{
     height: 30px;
     border: none;
     display: flex;
@@ -52,37 +56,22 @@ button{
     font-size: 12px;
     font-weight: 700;
 }
-#feedback button span{
+.burger_button{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 13px;
+    background-color: transparent;
+    border: none;
+}
+.burger_button span{
     width: 25px;
     height: 1px;
     background-color: black;
     display: block;
-    margin-left: 20px;
 }
-#feedback button span:before{
-    content: '';
-    display: block;
-    width: 25px;
-    height: 1px;
-    background-color: black;
-    -webkit-transform: translateY(-6px);
-    -moz-transform: translateY(-6px);
-    -ms-transform: translateY(-6px);
-    -o-transform: translateY(-6px);
-    transform: translateY(-6px);
-}
-#feedback button span:after{
-    content: '';
-    display: block;
-    width: 25px;
-    height: 1px;
-    background-color: black;
-    -webkit-transform: translateY(5px);
-    -moz-transform: translateY(5px);
-    -ms-transform: translateY(5px);
-    -o-transform: translateY(5px);
-    transform: translateY(5px);
-}
+
+
 @media(min-width: 320px) and (max-width: 479px){
     .container{
         width: 100%;
@@ -102,12 +91,56 @@ button{
         line-height: 30px;
 
     }
+    .feedback{
+        padding-right: 0;
+    }
+    .hamburger_content{
+        padding-top: 85px;
+        padding-left: 0;
+    }
+    .hamburger_block{
+        width: 100%;
+    }
+    .close{
+        right: 40px;
+    }
+    .hamburger_content ul{
+        padding: 0;
+    }
+    .menu_item{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .call{
+        width: 90%;
+        padding: 20px;
+    }
+    .call_block{
+        height: 100vh;
+    }
 }
 @media(min-width: 480px) and (max-width: 767px){
     .container{
         width: 100%;
         height: auto;
         padding: 0 40px;
+    }
+    .hamburger_content{
+        padding-top: 85px;
+        padding-left: 0;
+    }
+    .hamburger_block{
+        width: 100%;
+    }
+    .close{
+        right: 40px;
+    }
+    .hamburger_content ul{
+        padding: 0;
+    }
+    .menu_item{
+        font-size: 25px;
+        line-height: 40px;
     }
     section{
         overflow: hidden;
@@ -122,15 +155,47 @@ button{
         line-height: 40px;
 
     }
+    .feedback{
+         padding-right: 0;
+     }
+    .call{
+        width: 90%;
+        padding: 20px;
+    }
+    .call_block{
+        height: 100vh;
+    }
 }
 @media(min-width: 768px) and (max-width: 1023px){
+    .hamburger_content{
+        padding-top: 85px;
+        padding-left: 100px;
+    }
+    .call_block{
+        height: 100vh!important;
+    }
+    .hamburger_block{
+        width: 100%;
+    }
+    .close{
+        right: 40px;
+    }
+    .hamburger_content ul{
+        padding: 0;
+    }
+    .menu_item{
+        font-size: 25px;
+        line-height: 40px;
+    }
     .container{
         width: 750px;
         height: auto;
         padding: 0 30px;
     }
+
     section{
         overflow: hidden;
+        height: auto;
     }
     section .container > span {
         top: 303px;
@@ -148,6 +213,9 @@ button{
         width: 1024px;
         height: auto;
         padding: 0 30px;
+    }
+    .call_block{
+        height: 100vh;
     }
     section{
         overflow: hidden;
@@ -170,7 +238,7 @@ button{
     section .container > span{
         font-size: 16px;
     }
-    #feedback button{
+    .feedback_button{
         font-size: 16px;
         margin-right: 45px;
     }

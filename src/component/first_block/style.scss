@@ -1,9 +1,10 @@
-#main{
+.main_block {
   background-color: #F4F4F4;
-  .container{
+}
+  .main_container{
     height: 100vh;
   }
-}
+
 .main_content{
   position: relative;
   display: flex;
@@ -14,6 +15,7 @@
 }
 .main_title{
   color: black;
+  white-space: pre-wrap;
   font-family: 'Montserrat', sans-serif;
   margin-left: 114px;
   font-size: 77px;
@@ -21,6 +23,7 @@
 }
 .main_title_bottom{
   font-weight: 400;
+  white-space: pre-wrap;
   font-family: 'Montserrat', sans-serif;
   margin-left: 167px;
   font-size: 22px;
@@ -41,7 +44,7 @@
 }
 
 @media(min-width: 320px) and (max-width: 479px){
-  #main .container{
+  .main_block .main_container{
     height: auto;
     padding-bottom: 145px;
   }
@@ -71,7 +74,7 @@
   }
 }
 @media(min-width: 480px) and (max-width: 767px){
-  #main .container{
+  .main_block  .main_container{
     height: auto;
     padding-bottom: 145px;
   }
@@ -101,8 +104,8 @@
   }
 }
 @media(min-width: 768px) and (max-width: 1023px){
-  #main .container{
-    height: auto;
+  .main_container{
+    min-height: 800px;
     padding-bottom: 145px;
   }
   .main_title{
@@ -114,12 +117,12 @@
     height: auto;
   }
   .main_image {
-    width: 98%;
+    width: 680px;
     height: 436px;
     right: auto;
     margin-top: -576px;
     z-index: 2;
-    background-size: 680px 100%;
+    background-size: 100%;
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -132,7 +135,7 @@
   }
 }
 @media(min-width: 1024px) and (max-width: 1279px){
-  #main .container{
+  .main_container{
     min-height: 560px;
   }
   .main_image {
@@ -145,7 +148,7 @@
   .main_content{
     height: 420px;
   }
-  #main .container > span{
+  .main_container > span{
     top: 250px;
   }
   .main_title_bottom{

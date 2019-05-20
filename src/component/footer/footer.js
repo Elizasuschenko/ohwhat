@@ -1,29 +1,38 @@
 import React from 'react';
 import './style.scss'
 
-class Footer extends React.Component{
-    render(){
-        return(
-            <footer>
-            <div className="container">
-            <h2>Получите скидку 5%</h2>
-            <h3>оставив заявку на звонок прямо сейчас</h3>
-            <button>Оставить заявку на звонок</button>
-            <div className="socia">
-            <a href="google.com">
-            <i className="fa fa-instagram" aria-hidden="true"></i>
+class Footer extends React.Component {
+    constructor(props){
+        super(props)
+        this.socialBlock = this.socialBlock.bind(this)
+    }
+    socialBlock(index){
+        const items = this.props.content.social;
+        return (
+            <React.Fragment>  {items.map((item) => (
+            <a className="footer_link" href={item.href}>
+                <i className={item.faClass} aria-hidden="true"></i>
+            </a>
+            )
+        )
+        } </React.Fragment>)
 
-            </a>
-            <a href="google.com">
-                <i className="fa fa-envelope-o"></i>
-            </a>
-            <a href="google.com">
-            <i className="fa fa-mobile-phone"></i>
-            </a>
-            </div>
-            </div>
+    }
+    render() {
+
+        return (
+
+            <footer>
+                <div className="footer_container container">
+                    <h2 className="main_title_footer">{this.props.content.title}</h2>
+                    <button className="footer_button">{this.props.content.button}</button>
+                    <div className="social">
+                        {this.socialBlock()}
+                    </div>
+                </div>
             </footer>
-    )
+        )
     }
 }
+
 export default Footer

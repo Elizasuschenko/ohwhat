@@ -2,31 +2,33 @@ import React from 'react';
 import './style.scss'
 import Feedback from "../feedback";
 
+
 class Get extends React.Component{
     render(){
         return(
-            <section id="get">
-                <div class="container">
-                    <span>СТРАТЕГИЯ ОХВАТ РЕЗУЛЬТАТ ВОВЛЕЧЕНИЕ КОММУНИКАЦИЯ</span>
+            <section className="get_block" id="get">
+                <div className="get_container container">
+                    <span>{this.props.content.line}</span>
                     <Feedback />
-                    <div class="get-image">
+                    <div className="get-image">
 
                     </div>
-                    <div class="get-text">
-                        <h2>Вы получаете:</h2>
-                        <div class="get_text_left">
-                            <span>Дополнительный канал продаж</span>
-                            <span>Точечную коммуникацию</span>
-                            <span>Возможность познакомить клиентов с ценностями и идеями вашего бренда</span>
+                    <div className="get-text">
+                        <h2 className="get_text_title">{this.props.content.title}</h2>
+                        <div className="get_text_left">
+                            <span>{this.props.content.items[0]}</span>
+                            <span>{this.props.content.items[1]}</span>
+                            <span>{this.props.content.items[2]}</span>
                         </div>
-                        <div class="get_text_right">
-                            <span>Решения, которые влияют и запоминаются</span>
-                            <span>Узнаваемость</span>
-                            <span>Постоянный контакт с клиентами</span>
+                        <div className="get_text_right">
+                            <span>{this.props.content.items[3]}</span>
+                            <span>{this.props.content.items[4]}</span>
+                            <span>{this.props.content.items[5]}</span>
                         </div>
                     </div>
                 </div>
             </section>
+
     )
     }
 }

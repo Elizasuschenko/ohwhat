@@ -1,24 +1,26 @@
-#about_us{
-  #feedback{
-    position: absolute;
-    top: 10px;
-    left: 0;
-    width: 100%;}
+.about_us_block .feedback{
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;}
+.about_us_block{
   height: 100vh;
-  background-image: linear-gradient(to right, #171717 70%, white 30%);
-  .container{
+  background-image: linear-gradient(to right, #171717 70%, white 30%);}
+.about_us_block .about_us_container{
     height: 100%;
-    padding-right: 70px;
-    padding-left: 130px;
+  padding-right: 60px;
+  padding-left: 125px;
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
-  .container>span{
+  .left_line{
     color: white;
   }
+.about_us_block .burger_button span{
+  background-color: black;
 }
-#about_us .container:before{
+.about_us_container:before{
   content: "oh what";
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
@@ -35,7 +37,7 @@
   font-weight: 700;
   color: #fff;
 }
-#about_us .container:after{
+.about_us_container:after{
   content: "охват";
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
@@ -52,7 +54,7 @@
   font-weight: 700;
   color: #fff;
 }
-#about_us h2{
+.about_us_title{
   text-align: right;
   margin-bottom: 40px;
   margin-top: 0;
@@ -66,44 +68,58 @@
   align-items: center;
   justify-content: flex-end;
 }
-.about_us_content_text{
+.about_us_content_text {
   text-align: right;
-  width: 250px;
+  width: 345px;
   font-family: 'Montserrat', sans-serif;
   margin-right: 60px;
-  h3{
+}
+.about_us_content_text_title{
+  white-space: pre-line;
     font-size: 30px;
     margin: 0;
   }
-  p{
+.about_us_content_text_content{
     font-size: 13px;
     margin-top: 40px;
     margin-bottom: 0;
   }
-}
 .about_us_content_video{
-  width: 725px;
+  width: 700px;
   height: 390px;
 }
 
 @media(min-width: 320px) and (max-width: 479px){
-  #about_us {
+  .about_us_block .burger_button span{
+    background-color: white;
+  }
+  .about_us_block .feedback {
+
+    left: auto;
+    right: 23px;
+
+  }
+  .about_us_title{
+    display: none;
+  }
+  .about_us_block .container > span{
+    top: 235px;
+  }
+  .about_us_content_text_title{
+    text-align: center;
+  }
+  .about_us_block {
     height: 100%;
     background-color: #171717;
     background-image: none;
-    #feedback button{
+  }
+  .about_us_block .feedback_button{
       color: white;
       span{
         background-color: white;
-        &:after{
-          background-color: white;
-        }
-        &:before{
-          background-color: white;
-        }
       }
     }
-    h2{
+  .about_us_title{
       color: white;
       text-align: center;
       margin-bottom: 20px;
@@ -118,67 +134,82 @@
       }
       p{
         margin-top: 270px;
+        text-align: center;
       }
     }
-    .container{
+  .about_us_block .about_us_container{
       padding-right: 30px;
-      padding-top: 50px;
+      padding-top: 70px;
       padding-bottom: 50px;
       padding-left: 30px;
     }
     .about_us_content{
       flex-wrap: wrap;
+      justify-content: center;
     }
-  }
   .about_us_content_video {
     width: 100%;
     height: 250px;
     margin-top: -335px;
     z-index: 999;
   }
-  #about_us .container::before{
+  .about_us_container::before{
     content: '';
   }
-  #about_us .container::after{
+  .about_us_container::after{
     content: '';
   }
 }
 @media (min-width: 480px) and (max-width: 1023px) {
-  #about_us .container::before {
+  .about_us_title{
+    display: none;
+  }
+  .about_us_content_text_title{
+    text-align: center;
+  }
+
+  .process_block .about_us_container::before {
     top: 57%;
     left: -22%;
     font-size: 88px;
   }
-  #about_us .container::after {
+  .about_us_content_text_content{
+    margin-top: 325px;
+    text-align: center;
+  }
+  .about_us_block .about_us_container {
+    padding: 50px 40px;
+  }
+  .about_us_container::after {
        top: 69%;
        left: -1%;
     font-size: 88px;
   }
-  #about_us{
-    padding-bottom: 60px;
-  }
 }
 @media (min-width: 1024px) and (max-width: 1279px) {
-  #about_us .container::before {
+  .about_us_container::before {
     top: 54%;
     left: -15%;
     font-size: 88px;
   }
-  #about_us .container::after {
+  .about_us_container::after {
        top: 69%;
        left: -1%;
     font-size: 88px;
   }
-  #about_us{
+  .about_us_block{
     padding-bottom: 60px;
   }
 }
 @media(min-width: 480px) and (max-width: 1023px){
-  #about_us {
-    height: 100%;
+  .about_us_block {
     background-color: #171717;
     background-image: none;
-    #feedback button{
+  }
+  .about_us_block .burger_button span{
+    background-color: white;
+  }
+  .about_us_block .feedback_button{
       color: white;
       margin-right: 10px;
       span{
@@ -191,24 +222,25 @@
         }
       }
     }
-    h2{
+   .about_us_title{
       color: white;
       text-align: center;
       margin-bottom: 20px;
       font-weight: 700;
       margin-top: 20px;
     }
-    .about_us_content_text{
+    .about_us_content_text {
       margin-right: 0;
-      h3{
+    }
+     .about_us_content_text_title{
         font-size: 26px;
         margin-bottom: 30px;
       }
-      p{
+      .about_us_content_text_conten{
         margin-top: 270px;
       }
-    }
-    .container{
+
+    .about_us_container{
       padding-right: 40px;
       padding-top: 50px;
       padding-bottom: 50px;
@@ -216,12 +248,12 @@
     }
     .about_us_content{
       flex-wrap: wrap;
+      justify-content: center;
     }
-  }
   .about_us_content_video {
     width: 100%;
     height: 250px;
-    margin-top: -335px;
+    margin-top: -440px;
     z-index: 999;
     max-width: 500px;
   }
@@ -231,28 +263,28 @@
     width: 490px;
     height: 280px;
   }
-  #about_us{
+  .about_us_block {
     height: 500px;
-    .container > span{
+  }
+  .left_line{
       top: 236px;
     }
-  }
-  .about_us_content_text{
-    h3{
+
+  .about_us_content_text_title{
       font-size: 28px;
     }
-    p{
+  .about_us_content_text_content{
       font-size: 12px;
       margin-top: 25px;
     }
-  }
+
 }
 @media(min-width: 1920px){
   .about_us_content_video{
     width: 1050px;
     height: 590px;
   }
-  #about_us .container::before {
+  .about_us_container::before {
     content: "oh what";
     transform: rotate(-90deg);
     top: 42%;
@@ -266,12 +298,11 @@
     color: #fff;
     z-index: -1;
   }
-  #about_us .container::after {
+  .about_us_container::after {
     content: "охват";
     transform: rotate(-90deg);
     top: 55%;z-index: -1;
     left: 26%;
-
     position: absolute;
     font-size: 170px;
     opacity: 0.02;
@@ -280,13 +311,13 @@
     font-weight: 700;
     color: #fff;
   }
-  .about_us_content_text{
+  .about_us_content_text {
     width: 400px;
-    h3{
+  }
+    .about_us_content_text_title{
       font-size: 48px;
     }
-    p{
+    .about_us_content_text_content{
       font-size: 22px;
     }
   }
-}

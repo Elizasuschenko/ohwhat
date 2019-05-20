@@ -1,0 +1,177 @@
+{
+  "data": {
+    "blocks": {
+      "firstBlock": {
+        "name": "Главная",
+        "link": "#main",
+        "title":"OH WHAT\nОХВАТ",
+        "subtitle": "АГЕНТСТВО\nЭФФЕКТИВНОГО\nПРОДВИЖЕНИЯ В \nСОЦИАЛЬНЫХ СЕТЯХ ",
+        "line": "СТРАТЕГИЯ ОХВАТ РЕЗУЛЬТАТ ВОВЛЕЧЕНИЕ КОММУНИКАЦИЯ"
+      },
+      "process": {
+        "name": "Почему мы?",
+        "link": "#process",
+        "left": {
+          "one": {
+            "number": "01.",
+            "content": {
+              "text": "Мы создаём \n позиционирование\nбренда и ",
+              "boldText": "стратегию продвижения\nв социальных сетях."
+            }
+          },
+          "two": {
+            "number": "02.",
+            "content": {
+              "text": "Cтраницы\nстанут площадкой\n для близкой и\n ",
+              "boldText": "эффективной коммуникации\nс клиентами."
+            }
+          }
+        },
+        "right": {
+          "text": "Мы сделаем так,\nчтобы вашим\nбрендом\nвосхищались."
+        },
+        "line": "СТРАТЕГИЯ ОХВАТ РЕЗУЛЬТАТ ВОВЛЕЧЕНИЕ КОММУНИКАЦИЯ"
+      },
+      "get": {
+        "name": "Вы получите",
+        "link": "#get",
+        "title": "Вы получаете:",
+        "items": ["Дополнительный канал продаж", "Точечную коммуникацию", "Возможность познакомить клиентов с ценностями и идеями вашего бренда", "Решения, которые влияют и запоминаются", "Узнаваемость", "Постоянный контакт с клиентами" ],
+        "line": "СТРАТЕГИЯ ОХВАТ РЕЗУЛЬТАТ ВОВЛЕЧЕНИЕ КОММУНИКАЦИЯ"
+      },
+      "aboutUs": {
+        "name": "О нас",
+        "link": "#about",
+        "title": "О нас",
+        "titleBlock": "С нами\nвсё изменится!",
+        "content": "Мы помогаем достичь целей быстрее \nи эффективней. Наши идеи основываются на задачах проекта, а методы решения — на опыте\nи аналитике. Мы отвечаем за то, что делаем. ",
+        "line": "СТРАТЕГИЯ ОХВАТ РЕЗУЛЬТАТ ВОВЛЕЧЕНИЕ КОММУНИКАЦИ"
+      },
+      "ourWorks": {
+        "name": "Наши работы",
+        "link": "#works",
+        "title": "Кейсы",
+        "items":[
+          {
+            "key": "1",
+            "classBlock": "item_works first-line",
+            "srcImg": "https://storage1a.censor.net/images/4/6/0/d/460db48a68bcb4bcfd0662ca13931c51/original.jpg"
+          },
+          {
+            "key": "2",
+            "classBlock": "item_works first-line",
+            "srcImg": "https://storage1a.censor.net/images/4/6/0/d/460db48a68bcb4bcfd0662ca13931c51/original.jpg"
+          },
+          {
+            "key": "3",
+            "classBlock": "item_works first-line",
+            "srcImg": "https://storage1a.censor.net/images/4/6/0/d/460db48a68bcb4bcfd0662ca13931c51/original.jpg"
+          },
+          {
+            "key": "4",
+            "classBlock": "item_works first-line",
+            "srcImg": "https://storage1a.censor.net/images/4/6/0/d/460db48a68bcb4bcfd0662ca13931c51/original.jpg"
+          },
+          {
+            "key": "5",
+            "classBlock": "item_works first-line",
+            "srcImg": "https://storage1a.censor.net/images/4/6/0/d/460db48a68bcb4bcfd0662ca13931c51/original.jpg"
+          },
+          {
+            "key": "6",
+            "classBlock": "item_works second-line",
+            "srcImg": "https://storage1a.censor.net/images/4/6/0/d/460db48a68bcb4bcfd0662ca13931c51/original.jpg"
+          },
+          {
+            "key": "7",
+            "classBlock": "item_works second-line",
+            "srcImg": "https://storage1a.censor.net/images/4/6/0/d/460db48a68bcb4bcfd0662ca13931c51/original.jpg"
+          },
+          {
+            "key": "8",
+            "classBlock": "item_works second-line",
+            "srcImg": "https://storage1a.censor.net/images/4/6/0/d/460db48a68bcb4bcfd0662ca13931c51/original.jpg"
+          },
+          {
+            "key": "9",
+            "classBlock": "item_works second-line",
+            "srcImg": "https://storage1a.censor.net/images/4/6/0/d/460db48a68bcb4bcfd0662ca13931c51/original.jpg"
+          },
+          {
+            "key": "10",
+            "classBlock": "item_works second-line",
+            "srcImg": "https://storage1a.censor.net/images/4/6/0/d/460db48a68bcb4bcfd0662ca13931c51/original.jpg"
+          },{
+            "key": "11",
+            "classBlock": "item_works third-line",
+            "srcImg": "https://storage1a.censor.net/images/4/6/0/d/460db48a68bcb4bcfd0662ca13931c51/original.jpg"
+          },{
+            "key": "12",
+            "classBlock": "item_works third-line",
+            "srcImg": "https://storage1a.censor.net/images/4/6/0/d/460db48a68bcb4bcfd0662ca13931c51/original.jpg"
+          },{
+            "key": "13",
+            "classBlock": "item_works third-line",
+            "srcImg": "https://storage1a.censor.net/images/4/6/0/d/460db48a68bcb4bcfd0662ca13931c51/original.jpg"
+          },{
+            "key": "14",
+            "classBlock": "item_works third-line",
+            "srcImg": "https://storage1a.censor.net/images/4/6/0/d/460db48a68bcb4bcfd0662ca13931c51/original.jpg"
+          },{
+            "key": "15",
+            "classBlock": "item_works third-line",
+            "srcImg": "https://storage1a.censor.net/images/4/6/0/d/460db48a68bcb4bcfd0662ca13931c51/original.jpg"
+          }
+        ]
+      },
+      "services": {
+        "name": "Наши услуги",
+        "link": "#services",
+        "title": "Что нужно вам?",
+        "items": [
+          {
+            "number": "01",
+            "title": "Продвижение",
+            "content": "Стратегия визуальная и текстовая, модерация аккаунта, коммьюнити, таргетированная реклама.",
+            "price": "от 430 руб."
+          },
+          {
+            "number": "02",
+            "title": "Cтарт",
+            "content": "Аналитика профиля, контент-план на месяц, дизайн-шаблоны для историй и постов.",
+            "price": "от 200 руб."
+          },
+          {
+            "number": "03",
+            "title": "Спецпроект",
+            "content": "Поддержка событий, мероприятий, акций. Работа с блогерами и СМИ.",
+            "price": "от 590руб."
+          }
+        ],
+        "line": "СТРАТЕГИЯ ОХВАТ РЕЗУЛЬТАТ ВОВЛЕЧЕНИЕ КОММУНИКАЦИЯ",
+        "sell": "Заказать"
+      },
+      "footer": {
+        "title": "Продвигайте бизнес рационально",
+        "button" : "Оставить заявку на звонок",
+        "social": [
+          {
+            "name": "instagram",
+            "href": "google.com",
+            "faClass": "fa-instagram fa footer_link"
+          },
+          {
+            "name": "mail",
+            "href": "google.com",
+            "faClass": "fa-envelope-o fa footer_link"
+          },
+          {
+            "name": "phone",
+            "href": "google.com",
+            "faClass": "fa-mobile-phone fa footer_link"
+          }
+        ]
+      }
+    }
+  }
+}
