@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ohwhat/build/static/css/main.8373cb71.chunk.css",
-    "main.js": "/ohwhat/build/static/js/main.8da030d6.chunk.js",
-    "main.js.map": "/ohwhat/build/static/js/main.8da030d6.chunk.js.map",
+    "main.css": "/ohwhat/build/static/css/main.355661fa.chunk.css",
+    "main.js": "/ohwhat/build/static/js/main.cccf504f.chunk.js",
+    "main.js.map": "/ohwhat/build/static/js/main.cccf504f.chunk.js.map",
     "runtime~main.js": "/ohwhat/build/static/js/runtime~main.2a2c72f8.js",
     "runtime~main.js.map": "/ohwhat/build/static/js/runtime~main.2a2c72f8.js.map",
     "static/js/2.827c098e.chunk.js": "/ohwhat/build/static/js/2.827c098e.chunk.js",
     "static/js/2.827c098e.chunk.js.map": "/ohwhat/build/static/js/2.827c098e.chunk.js.map",
     "index.html": "/ohwhat/build/index.html",
-    "precache-manifest.b71a2c5db1f954f22a170c136fba7464.js": "/ohwhat/build/precache-manifest.b71a2c5db1f954f22a170c136fba7464.js",
+    "precache-manifest.a61c0d1bc54f7866b800e896627e770e.js": "/ohwhat/build/precache-manifest.a61c0d1bc54f7866b800e896627e770e.js",
     "service-worker.js": "/ohwhat/build/service-worker.js",
-    "static/css/main.8373cb71.chunk.css.map": "/ohwhat/build/static/css/main.8373cb71.chunk.css.map",
+    "static/css/main.355661fa.chunk.css.map": "/ohwhat/build/static/css/main.355661fa.chunk.css.map",
     "static/media/style.scss": "/ohwhat/build/static/media/main_1920.1f3c7d45.svg"
   }
 }
