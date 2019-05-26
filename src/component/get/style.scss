@@ -1,45 +1,52 @@
+@import "../../colors.scss";
+
 .get_block {
   height: 100vh;
-  background-color: #F4F4F4;
+  background-color: $grey-background;
 }
-.get_block .get_container{
-    height: 100%;
-    display: flex;
-    position: relative;
-    justify-content: space-around;
-    align-items: flex-end;
-    padding-bottom: 12%;
-  }
-  .get_container:before{
-    content: "Oh what";
-    text-transform: uppercase;
-    position: absolute;
-    left: -142px;
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
-    top: 2%;
-    opacity: 0.2;
-    font-size: 150px;
-  }
-  .get_container:after{
-    content: "охват";
-    text-transform: uppercase;
-    position: absolute;
-    left: -142px;
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
-    top: 23%;
-    opacity: 0.2;
-    z-index: 8;
-    font-size: 150px;
-  }
-  .get_container .feedback{
-    position: absolute;
-    top: 10px;
-    left: 0;
-    width: 100%;}
 
-.get-image{
+.get_block .get_container {
+  height: 100%;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding-bottom: 12%;
+}
+
+.get_container:before {
+  content: attr(data-before);
+  text-transform: uppercase;
+  position: absolute;
+  left: -142px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  top: 2%;
+  opacity: 0.2;
+  font-size: 150px;
+}
+
+.get_container:after {
+  content: attr(data-after);
+  text-transform: uppercase;
+  position: absolute;
+  left: -142px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  top: 23%;
+  opacity: 0.2;
+  z-index: 8;
+  font-size: 150px;
+}
+
+.get_container .feedback {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+}
+
+.get-image {
   width: 440px;
   position: relative;
   height: 290px;
@@ -49,61 +56,67 @@
   background-size: 100% 100%;
   margin-left: 80px;
 }
+
 .get-text {
   width: 570px;
 }
-  .get_text_title{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 32px;
-  }
-.get-text div{
-    display: inline-block;
-    width: 275px;
-    vertical-align: top;
-  }
-.get-text span{
-    padding-left: 20px;
-    padding-right: 10px;
-    margin-bottom: 25px;
-    font-family: 'Montserrat', sans-serif;
-    display: block;
-    position: relative;
-    font-size: 17px;
-  }
-.get-text span:before{
-    position: absolute;
-    content: "";
-    background-color: #7A7A7A;
-    display: block;
-    width: 5px;
-    height: 5px;
-    border-radius: 100%;
-    top: 7px;
-    left: 0;
-  }
 
-@media(min-width: 320px) and (max-width: 767px){
-  .get_block{
-    height: auto;}
-    .get_text_title{
-      text-align: center;
-    }
+.get_text_title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.get-text div {
+  display: inline-block;
+  width: 275px;
+  vertical-align: top;
+}
+
+.get-text span {
+  padding-left: 20px;
+  padding-right: 10px;
+  margin-bottom: 25px;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  position: relative;
+  font-size: 17px;
+}
+
+.get-text span:before {
+  position: absolute;
+  content: "";
+  background-color: $grey-text;
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  top: 7px;
+  left: 0;
+}
+
+@media(min-width: 320px) and (max-width: 767px) {
+  .get_block {
+    height: auto;
+  }
+  .get_text_title {
+    text-align: center;
+  }
   .get_container .feedback {
 
     left: auto;
     right: 23px;
 
   }
-  .get_block .get_container{
-      padding-bottom: 60px;
-      padding-top: 30px;
-      flex-wrap: wrap;
-      flex-flow: column-reverse;
-    }
-    .feedback{
-      top: 0;
-    }
+  .get_block .get_container {
+    padding-bottom: 60px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    flex-flow: column-reverse;
+  }
+  .feedback {
+    top: 0;
+  }
   .get-image {
 
     width: 100%;
@@ -116,13 +129,13 @@
     background-position: center;
 
   }
-  .get-text{
+  .get-text {
     width: 97%;
   }
-  .get_text_left{
+  .get_text_left {
     width: 100%;
   }
-  .get_text_right{
+  .get_text_right {
     width: 100%;
   }
   .get_container::before {
@@ -132,7 +145,7 @@
     left: 10px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
-    top: 0%;
+    top: 0;
     opacity: 0.2;
     font-size: 61px;
     line-height: 65px;
@@ -179,10 +192,11 @@
     font-size: 89px;
     right: 0;
   }
-  .get_block{
+  .get_block {
     padding-bottom: 60px;
   }
 }
+
 @media (min-width: 1024px) and (max-width: 1279px) {
   .get_container::before {
 
@@ -196,36 +210,37 @@
     top: 12%;
   }
 
-    .get_container > span{
-      top: 222px;
-    }
+  .get_container > span {
+    top: 222px;
+  }
 
 }
-@media(min-width: 768px) and (max-width: 1023px){
+
+@media(min-width: 768px) and (max-width: 1023px) {
   .get_block {
     height: auto;
   }
-    .get_text_title{
-      text-align: center;
+  .get_text_title {
+    text-align: center;
+  }
+  .get_block .get_container {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    flex-flow: column-reverse;
+    align-items: center;
+  }
+  .get_block #feedback {
+    top: 0;
+    button {
+      margin-right: 10px;
     }
-  .get_block  .get_container{
-      padding-bottom: 30px;
-      padding-top: 30px;
-      flex-wrap: wrap;
-      flex-flow: column-reverse;
-      align-items: center;
-    }
-    .get_block #feedback{
-      top: 0;
-      button{
-        margin-right: 10px;
-      }
 
   }
-  .get-text{
+  .get-text {
     width: 500px;
   }
-  .get-text div{
+  .get-text div {
     width: 249px;
   }
   .get-image {
@@ -241,23 +256,25 @@
 
   }
 }
+
 @media(min-width: 1024px) and (max-width: 1279px) {
-  .get_block{
+  .get_block {
     height: 500px;
   }
-  .get-image{
+  .get-image {
     margin-left: 40px;
     width: 400px;
     margin-right: 20px;
     height: 254px;
   }
-  .get-text{
+  .get-text {
     width: 550px;
-    div{
+    div {
       width: 49%;
     }
   }
 }
+
 @media(min-width: 1910px) {
   .get-image {
     width: 670px;
@@ -267,12 +284,12 @@
     width: 870px;
     margin-bottom: 65px;
   }
-  .get-text span{
-      font-size: 22px;
-    }
-    .get_text_title{
-      font-size: 48px;
-    }
+  .get-text span {
+    font-size: 22px;
+  }
+  .get_text_title {
+    font-size: 48px;
+  }
   .get-text div {
     width: 45%;
   }

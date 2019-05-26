@@ -15,13 +15,13 @@ class Web extends React.Component {
         return (
             <div>
                 <Window content={data.blocks}/>
-                <FirstBolck content={data.blocks.firstBlock} />
-                <Process  content={data.blocks.process} />
-                <Get  content={data.blocks.get} />
-                <AboutUs  content={data.blocks.aboutUs} />
-                <OurWorks  content={data.blocks.ourWorks} />
-                <Services  content={data.blocks.services} />
-                <Footer  content={data.blocks.footer} />
+                <FirstBolck content={data.blocks.firstBlock}/>
+                <Process content={data.blocks.process}/>
+                <Get content={data.blocks.get}/>
+                <AboutUs content={data.blocks.aboutUs}/>
+                <OurWorks content={data.blocks.ourWorks}/>
+                <Services content={data.blocks.services}/>
+                <Footer content={data.blocks.footer}/>
             </div>
         )
     }

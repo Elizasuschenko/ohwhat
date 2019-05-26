@@ -8,18 +8,21 @@ class Feedback extends React.Component {
         this.showDarkLine = this.showDarkLine.bind(this);
         this.call = this.call.bind(this);
     }
-    showDarkLine(){
+
+    showDarkLine() {
         let dark = document.querySelector('.windows');
         dark.classList.add('showDark')
     }
+
     menu() {
         let menu = document.getElementsByClassName('hamburger_block');
-        menu[0].style.display="block";
+        menu[0].style.display = "block";
         this.showDarkLine()
     }
+
     call() {
         let call = document.querySelector('.call_block');
-        call.style.display="block";
+        call.style.display = "block";
         this.showDarkLine()
     }
 

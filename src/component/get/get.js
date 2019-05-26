@@ -3,13 +3,28 @@ import './style.scss'
 import Feedback from "../feedback";
 
 
-class Get extends React.Component{
-    render(){
-        return(
+class Get extends React.Component {
+    constructor(props) {
+        super(props)
+        this.psevdo = this.psevdo.bind(this)
+    }
+
+    psevdo(elem, atr, content) {
+        document.addEventListener('DOMContentLoaded', function () {
+            let str = document.querySelector(elem);
+            str.setAttribute(atr, content)
+            console.log(str)
+        }, false)
+    }
+
+    render() {
+        return (
             <section className="get_block" id="get">
-                <div className="get_container container">
+                <div className="get_container container"
+                     before={this.psevdo('.get_container', 'data-before', 'Oh what')}
+                     after={this.psevdo('.get_container', 'data-after', 'охват')}>
                     <span>{this.props.content.line}</span>
-                    <Feedback />
+                    <Feedback/>
                     <div className="get-image">
 
                     </div>
@@ -29,7 +44,8 @@ class Get extends React.Component{
                 </div>
             </section>
 
-    )
+        )
     }
 }
+
 export default Get

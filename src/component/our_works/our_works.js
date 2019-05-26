@@ -1,27 +1,30 @@
 import React from 'react';
-import './style.scss'
+import './style.scss';
 import Feedback from "../feedback";
 
 class OurWorks extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
+            open: false,
             boolean: true
         }
         this.number = this.number.bind(this)
         this.add_block = this.add_block.bind(this)
         this.works = this.works.bind(this)
     }
-    works(){
+
+    works() {
         const items = this.props.content.items;
         return (
             <React.Fragment>  {items.map((item) => (
-                <div className={item.classBlock}><img alt="img" className="item_works_img" src={item.srcImg} /></div>
+                    <div className={item.classBlock}><img alt="img" className="item_works_img" src={item.srcImg}/></div>
                 )
             )
             } </React.Fragment>)
 
     }
+
     add_block() {
         let second_line = document.getElementsByClassName('second-line');
         let third_line = document.getElementsByClassName('third-line');
@@ -34,6 +37,7 @@ class OurWorks extends React.Component {
         let button = document.getElementsByClassName('works_button_click');
         button[0].style.display = 'none'
     }
+
     number() {
         let boolem = this.state.boolean;
         if (boolem === true) {
